@@ -276,7 +276,6 @@ body {
 
 .team-employee {
   width: 264px;
-  height: 380px;
   background-color: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -297,8 +296,14 @@ body {
 
 .employee-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
+.team-media-element {
+}
+
+.team-svg {
+}
 /* ----- section 5 ----- */
 .customers {
 }
@@ -309,6 +314,7 @@ body {
 
 .customers-element {
 }
+
 /* a */
 .link-customers {
   width: 168px;
@@ -322,12 +328,11 @@ body {
 .icons-customers {
   fill: var(--light-slait-subtle-text);
 }
-.link-customers:hover,
-.icons-customers:hover,
+
 .link-customers:focus,
 .icons-customers:focus {
-  border: 1px solid var(--green-success-100);
-  fill: var(--green-success-100);
+  border: 1px solid var(--ocean-pressed-state);
+  fill: var(--ocean-pressed-state);
 }
 
 /* ======================== */
@@ -341,6 +346,9 @@ body {
 }
 
 .logo-foot {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--cloud-light);
 }
 
@@ -355,10 +363,11 @@ body {
 }
 /*  */
 .media-text {
+  color: var(--white-background);
   margin-bottom: 16px;
 }
 
-.media-list {
+.social-media-list {
   display: flex;
   gap: 16px;
 }
@@ -372,6 +381,8 @@ body {
 
 .media-svg {
   fill: var(--cloud-light);
+  margin: 0%;
+  padding: 0%;
 }
 
 .media-element:hover,
