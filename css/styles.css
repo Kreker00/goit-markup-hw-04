@@ -98,9 +98,11 @@ body {
   color: var(--slate-text);
   background-color: var(--white-background);
 }
-
+/* !!! */
 .hat {
   border-bottom: 1px solid var(--cornflower-accent);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .hat-box {
@@ -303,6 +305,7 @@ body {
 }
 
 .team-svg {
+  fill: var(--white-background);
 }
 /* ----- section 5 ----- */
 .customers {
@@ -329,7 +332,7 @@ body {
   fill: var(--light-slait-subtle-text);
 }
 
-.link-customers:focus,
+.link-customers:hover,
 .icons-customers:focus {
   border: 1px solid var(--ocean-pressed-state);
   fill: var(--ocean-pressed-state);
@@ -375,11 +378,14 @@ body {
 .media-element {
   width: 40px;
   height: 40px;
+
   border-radius: 50%;
   background-color: var(--iris-primary-brand);
 }
 
 .media-svg {
+  width: 24px;
+  height: 24px;
   fill: var(--cloud-light);
   margin: 0%;
   padding: 0%;
