@@ -100,6 +100,7 @@ body {
 }
 /* !!! */
 .hat {
+  max-width: 1440px;
   border-bottom: 1px solid var(--cornflower-accent);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -181,6 +182,7 @@ body {
 
 /* ----- section 1 ----- */
 .hero {
+  max-width: 1440px;
   background-color: var(--navy-blue-dark);
   padding: 188px 0;
   align-items: center;
@@ -242,6 +244,7 @@ body {
   display: flex;
   margin-right: auto;
   margin-left: auto;
+  background-color: var(--cloud-light);
 }
 
 .feature-head {
@@ -273,6 +276,7 @@ body {
 
 /* ----- section 4 ----- */
 .team {
+  max-width: 1440px;
   background-color: var(--cloud-light);
 }
 
@@ -302,6 +306,15 @@ body {
 }
 
 .team-media-element {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-primary-brand);
+}
+
+.team-media-element:hover,
+.team-media-element:focus {
+  background-color: var(--ocean-pressed-state);
 }
 
 .team-svg {
@@ -320,6 +333,10 @@ body {
 
 /* a */
 .link-customers {
+}
+/* svg */
+.icons-customers {
+  fill: var(--light-slait-subtle-text);
   width: 168px;
   height: 88px;
   border: 1px solid var(--light-slait-subtle-text);
@@ -327,26 +344,24 @@ body {
   display: flex;
   justify-content: center;
 }
-/* svg */
-.icons-customers {
-  fill: var(--light-slait-subtle-text);
-}
 
-.link-customers:hover,
+.icons-customers:hover,
 .icons-customers:focus {
-  border: 1px solid var(--ocean-pressed-state);
   fill: var(--ocean-pressed-state);
+  border: 1px solid var(--ocean-pressed-state);
 }
 
 /* ======================== */
 /* -------- footer -------- */
 /* ======================== */
 .footer {
+  max-width: 1440px;
   background-color: var(--navy-blue-dark);
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .logo-foot {
@@ -388,8 +403,6 @@ body {
   width: 24px;
   height: 24px;
   fill: var(--cloud-light);
-  margin: 0%;
-  padding: 0%;
 }
 
 .media-element:hover,
