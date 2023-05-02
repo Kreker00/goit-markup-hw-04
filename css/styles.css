@@ -236,6 +236,9 @@ body {
 }
 /* 0 */
 .icons-features {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .feature-head {
@@ -294,6 +297,20 @@ body {
 .employee-text {
   text-align: center;
 }
+
+/* ----- section 5 ----- */
+.customers {
+}
+
+.customers-list {
+}
+
+.customers-element {
+}
+
+.icons-customers {
+}
+
 /* ======================== */
 /* -------- footer -------- */
 /* ======================== */
