@@ -234,6 +234,7 @@ body {
 .feature {
   width: calc((100% - 72px) / 4);
 }
+
 /* 0 */
 .icons-features {
   display: flex;
@@ -303,12 +304,23 @@ body {
 }
 
 .customers-list {
+  display: flex;
+  justify-content: center;
 }
 
 .customers-element {
 }
 
+.link-customers {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
 .icons-customers {
+  color: var(--light-slait-subtle-text);
+  margin: auto;
 }
 
 /* ======================== */
