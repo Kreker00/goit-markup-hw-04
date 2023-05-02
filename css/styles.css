@@ -304,22 +304,22 @@ body {
 }
 
 .customers-list {
-  display: flex;
   justify-content: center;
 }
 
 .customers-element {
 }
-
+/* a */
 .link-customers {
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
-
+/* svg */
 .icons-customers {
   fill: var(--light-slait-subtle-text);
+  background-: ;
 }
 
 /* ======================== */
