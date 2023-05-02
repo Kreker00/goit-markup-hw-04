@@ -319,8 +319,7 @@ body {
 }
 
 .icons-customers {
-  color: var(--light-slait-subtle-text);
-  margin: auto;
+  fill: var(--light-slait-subtle-text);
 }
 
 /* ======================== */
