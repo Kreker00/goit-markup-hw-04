@@ -343,6 +343,9 @@ body {
 
 /* a */
 .link-customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* svg */
@@ -352,12 +355,10 @@ body {
   height: 88px;
   border: 1px solid var(--light-slait-subtle-text);
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
 }
 
-.icons-customers:hover,
-.icons-customers:focus {
+.link-customers:hover,
+.link-customers:focus {
   fill: var(--ocean-pressed-state);
   border: 1px solid var(--ocean-pressed-state);
 }
