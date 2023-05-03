@@ -351,13 +351,14 @@ body {
 
 /* svg */
 .icons-customers {
+  height: 56px;
   fill: var(--light-slait-subtle-text);
 }
 
 .link-customers:hover,
 .link-customers:focus {
-  fill: var(--ocean-pressed-state);
-  border: 1px solid var(--ocean-pressed-state);
+  color: var(--ocean-pressed-state);
+  border-color: var(--ocean-pressed-state);
 }
 
 /* ======================== */
