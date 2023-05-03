@@ -36,15 +36,16 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .alignment-gap {
@@ -189,9 +190,11 @@ body {
   background-color: var(--navy-blue-dark);
   padding: 188px 0;
   align-items: center;
-}
-
-.people-office {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/icons_folder/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-header {
@@ -247,8 +250,15 @@ body {
 
 .icons-features-box {
   width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--cloud-light);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
+
 /* 0 */
 .icons-features {
   display: flex;
@@ -301,7 +311,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .employee-had {
@@ -312,6 +322,10 @@ body {
 .employee-text {
   text-align: center;
   margin-bottom: 8px;
+}
+
+.media-ourteam {
+  justify-content: center;
 }
 
 .team-media-element {
@@ -331,14 +345,20 @@ body {
 
 .team-svg {
   height: 16px;
-  fill: var(--white-background);
+  fill: var(--cloud-light);
 }
 /* ----- section 5 ----- */
 .customers {
 }
 
+.demonstration-customers {
+  line-height: 1.1;
+}
 .customers-list {
   justify-content: center;
+}
+
+.customers-list-elemant {
 }
 
 /* a */
@@ -350,6 +370,7 @@ body {
   align-items: center;
   border: 1px solid var(--light-slait-subtle-text);
   border-radius: 4px;
+  color: var(--light-slait-subtle-text);
   fill: var(--light-slait-subtle-text);
 }
 
@@ -360,6 +381,7 @@ body {
 
 .link-customers:hover,
 .link-customers:focus {
+  color: var(--ocean-pressed-state);
   fill: var(--ocean-pressed-state);
   border-color: var(--ocean-pressed-state);
 }
@@ -375,13 +397,16 @@ body {
 }
 
 .footer-box {
-  padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.footer-logo-box {
+  margin-right: 120px;
 }
 
 .logo-foot {
@@ -402,6 +427,7 @@ body {
 }
 /*  */
 .media-text {
+  font-weight: 500;
   color: var(--white-background);
   margin-bottom: 16px;
 }
