@@ -242,13 +242,15 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
+.icons-features-box {
+  width: 264px;
+  background-color: var(--cloud-light);
+}
 /* 0 */
 .icons-features {
-  width: 264px;
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  background-color: var(--cloud-light);
 }
 
 .feature-head {
@@ -314,16 +316,15 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-primary-brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-media-element:hover,
 .team-media-element:focus {
   background-color: var(--ocean-pressed-state);
 }
-
-/* display: flex;
-  justify-content: center;
-  align-items: center; */
 
 .team-svg {
   height: 16px;
@@ -343,6 +344,7 @@ body {
 /* a */
 .link-customers {
 }
+
 /* svg */
 .icons-customers {
   fill: var(--light-slait-subtle-text);
