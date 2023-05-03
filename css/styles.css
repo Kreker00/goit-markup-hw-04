@@ -347,7 +347,7 @@ body {
   align-items: center;
   border: 1px solid var(--light-slait-subtle-text);
   border-radius: 4px;
-  color: var(--light-slait-subtle-text);
+  fill: var(--light-slait-subtle-text);
 }
 
 /* svg */
@@ -357,10 +357,12 @@ body {
 
 .link-customers:hover,
 .link-customers:focus {
-  color: var(--ocean-pressed-state);
   border-color: var(--ocean-pressed-state);
 }
-
+.icons-customers:hover,
+.icons-customers:focus {
+  fill: var(--ocean-pressed-state);
+}
 /* ======================== */
 /* -------- footer -------- */
 /* ======================== */
