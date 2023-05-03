@@ -32,7 +32,10 @@ button {
 /* ======================== */
 /* допоміжний клас, для центрування і обмеження контенту по ширині */
 /* ======================== */
-
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -241,6 +244,7 @@ body {
 
 /* 0 */
 .icons-features {
+  w
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -317,7 +321,12 @@ body {
   background-color: var(--ocean-pressed-state);
 }
 
+/* display: flex;
+  justify-content: center;
+  align-items: center; */
+
 .team-svg {
+  height: 16px;
   fill: var(--white-background);
 }
 /* ----- section 5 ----- */
@@ -354,6 +363,8 @@ body {
 /* ======================== */
 /* -------- footer -------- */
 /* ======================== */
+.jh {
+}
 .footer {
   max-width: 1440px;
   background-color: var(--navy-blue-dark);
@@ -399,9 +410,11 @@ body {
 .media-element {
   width: 40px;
   height: 40px;
-
   border-radius: 50%;
   background-color: var(--iris-primary-brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .media-svg {
