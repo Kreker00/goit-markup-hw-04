@@ -347,12 +347,12 @@ body {
   align-items: center;
   border: 1px solid var(--light-slait-subtle-text);
   border-radius: 4px;
+  color: var(--light-slait-subtle-text);
 }
 
 /* svg */
 .icons-customers {
   height: 56px;
-  fill: var(--light-slait-subtle-text);
 }
 
 .link-customers:hover,
