@@ -347,7 +347,6 @@ body {
   align-items: center;
   border: 1px solid var(--light-slait-subtle-text);
   border-radius: 4px;
-  fill: var(--light-slait-subtle-text);
 }
 
 /* svg */
